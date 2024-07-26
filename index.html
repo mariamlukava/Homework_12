@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo.svg">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/f58b8ac5b5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <a href="index.html"><img src="images/logo.svg" alt=""></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" class="active">HOME</a>
+                    </li>
+                    <li>
+                        <a href="">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_div">
+                <button class="login">LOG IN</button>
+                <button class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- section -->
+        <section class="main_section">
+            <section class="contact_section">
+                <h2>CONTACT US</h2>
+                <form name="form">
+                    <section class="sub_section1">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                    </section>
+                    <div class="radio_div">
+                        <h3>I have a delivery question about my order</h3>
+                        <section class="radio_section">
+                            <input type="radio" id="radio1" name="question" value="question1">
+                            <label for="radio1">I did not receive my order</label>
+                        </section>
+                        <section class="radio_section">
+                            <input type="radio" id="radio1" name="question" value="question2">
+                            <label for="radio1">My order is incorrect or arrived damaged</label>
+                        </section>
+                        <section class="radio_section">
+                            <input type="radio" id="radio1" name="question" value="question3">
+                            <label for="radio1">Cancel my order</label>
+                        </section>
+                        <section class="radio_section">
+                            <input type="radio" id="radio1" name="question" value="question4">
+                            <label for="radio1">Change my shipping address</label>
+                        </section>
+                    </div>
+                    <section class="text_section">
+                        <label for="textbox" id="textbox">Please provide more details below.</label>
+                        <textarea name="" id="textbox" placeholder="Message"></textarea>
+                    </section>
+                    <section class="checkbox_section">
+                        <input type="checkbox" id="checkbox" name="newsletter" value="receive">
+                        <label for="checkbox" id="checkbox">I want to receive the newsletter</label>
+                    </section>
+                    <button type="submit">SEND</button>
+                </form>
+            </section>
+        </section>
+    </div>
+
+</body>
+
+</html>
